@@ -1,0 +1,97 @@
+fieldLayouts:
+  70bacfa3-7d6e-4797-90a9-abdc05491808:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: dce08032-00a6-4e62-8eac-b291422e9cf0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c3c90446-3b9d-4111-a102-f0dcd272ec4f # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a6db67b-b4d1-45ed-b4b7-a248c6cd2189
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb621092-f9bd-4d01-9c34-d3e90af9a5fe # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21e91e03-e277-4d3e-984d-00bc5e843100
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 20c91268-c805-41b0-b0ea-e721d23731e9 # Thumb Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b4a2a2c-d979-4dca-b96e-5fc2b3c3acf9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4f97f868-9e3a-49a8-9d0c-6aeac30698d5
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1e1726ba-00f8-4953-b100-ade1f2535b51 # Food Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 145eed10-4135-420c-942f-f46783d9d094
+            userCondition: null
+            warning: null
+            width: 100
+        name: Classifications
+        uid: 5ff3c21d-127f-4c08-9879-e9d717879cc0
+        userCondition: null
+handle: item
+hasTitleField: true
+name: Item
+section: 8004e179-44a9-4058-9635-34dde8ff01a7 # Menu Items
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

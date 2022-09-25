@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+	<title>Holt's Dogs - The Best Hot Dogs You'll Ever Eat</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/tooltipster.css">
+	<link rel="stylesheet" href="/css/magnific-popup.css">
+	<!-- favicon -->
+	<link rel="icon" href="favicon.ico">
+</head>
+<body>
+	
+	<main>
+		
+		<!--HEADER-->
+		<header>
+			<div id="main-nav-wrap">
+			<nav id="main-nav">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="sub-items"><a href="/menu">Menu</a>
+						<ul>
+							<li><a href="/menu/dogs">Dogs</a></li>
+							<li><a href="/menu/sausages">Sausages</a></li>
+							<li><a href="/menu/sandwiches">Sandwiches</a></li>
+							<li><a href="/menu/burgers">Burgers</a></li>
+							<li><a href="/menu/sides">Sides</a></li>
+							<li><a href="/menu/drinks">Drinks</a></li>
+						</ul>
+					</li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/our-story">Our Story</a></li>
+				</ul>	
+				<ul class="responsive-nav">
+					<li><a href="/">Home</a></li>
+					<li class="sub-items"><a href="/menu">Menu</a>
+						<ul>
+							<li><a href="/menu/dogs">Dogs</a></li>
+							<li><a href="/menu/sausages">Sausages</a></li>
+							<li><a href="/menu/sandwiches">Sandwiches</a></li>
+							<li><a href="/menu/burgers">Burgers</a></li>
+							<li><a href="/menu/sides">Sides</a></li>
+							<li><a href="/menu/drinks">Drinks</a></li>
+						</ul>
+					</li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/our-story">Our Story</a></li>
+				</ul>	
+				<a href="#" id="pull"></a>  
+			</nav>
+			</div>
+			<figure>
+				<img src="/images/main-logo.png" alt="Holt's Dogs Logo">
+				<figcaption>Holt's Dogs</figcaption>
+			</figure>
+		</header>
+		<!--/HEADER-->
+
+        {% block content %}{% endblock %}
+
+		<!--FOOTER-->
+		<footer>
+			<section id="info">
+				<article>
+					<h5>Holt's Dogs</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod tempor incididunt ut labore et dolore magna porem ed ipsum dolor sit amet, consectetur. Do re eiusmod tempor incididunt ut labore et dolore magna porem ed ipsum dolor sit amet, consectetur.</p>
+					<ul class="c-info">
+						<li>732 Evergreen Terrace - Springfield, USA</li>
+						<li>justin@justinholt.com</li>
+						<li>(1) 704 - 369 - 4557</li>
+					</ul>
+				</article>
+
+				<!--OPENING HOURS-->
+				<article>
+					<h5>Opening Hours</h5>
+					<article class="op-hours">
+						<div>
+							<h6>Monday</h6>
+							<h6>11:00AM - 9:00PM</h6>
+						</div>
+						<div>
+							<h6>Tuesday</h6>
+							<h6>11:00AM - 9:00PM</h6>
+						</div>
+						<div>
+							<h6>Wednesday</h6>
+							<h6>11:00AM - 9:00PM</h6>
+						</div>
+						<div>
+							<h6>Thursday</h6>
+							<h6>11:00AM - 9:00PM</h6>
+						</div>
+						<div>
+							<h6>Friday</h6>
+							<h6>11:00AM - 11:00PM</h6>
+						</div>
+						<div>
+							<h6>Saturday</h6>
+							<h6>11:00AM - 11:00PM</h6>
+						</div>
+						<div>
+							<h6>Sunday</h6>
+							<h6>11:00AM - 7:00PM</h6>
+						</div>
+					</article>
+				</article>
+				<!--/OPENING HOURS-->
+			</section>
+			<div id="copy-wrap">
+			<section id="copy">
+				<h5><span>Holt's Dogs |</span> All Rights Reserved</h5>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/menu">Menu</a></li>
+						<li><a href="/our-story">Our Story</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</nav>
+			</section>
+			</div>
+		</footer>
+		<!--/FOOTER-->
+	</main>
+
+<!-- jQuery -->
+<script src="/js/jquery-1.11.1.min.js"></script>
+<!-- bxSlider -->
+<script src="/js/jquery.bxslider.min.js"></script>
+<!-- magnificPopup -->
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<!-- Img Liquid -->
+<script src="/js/imgLiquid-min.js"></script>
+<!-- Tooltipster -->
+<script src="/js/jquery.tooltipster.min.js"></script>
+<!-- Main -->
+<script src="/js/main.js"></script>
+<!-- Validate -->
+<script src="/js/main-validate.js"></script>
+<!-- Contact -->
+<script src="/js/contact.js"></script>
+<!-- Subscribe -->
+<script src="/js/subscribe.js"></script>
+<!-- Google Maps API -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<!-- Google Maps Config -->
+<script src="/js/gmaps.js"></script>
+<script>
+$(function() {
+	/*-----------------
+		MAIN SLIDER
+	-----------------*/
+	$('.main-slider').bxSlider({
+		pagerCustom: '.pager-container',
+		controls: false,
+		easing: 'ease-in',
+		speed: 800,
+		auto: true,
+		pause: 6000
+	});
+
+	/*-------------
+		VIDEO
+	-------------*/
+	$('#video .radial-progress').on('click', function() {
+		$('#video > iframe').show();
+	});
+
+	/*----------------
+		TOOLTIP
+	----------------*/
+	$('.tooltip').tooltipster({
+		animation: 'grow',
+		position: 'bottom'
+	});
+
+	/*-----------------
+		RESIZE IMAGE
+	-----------------*/
+	$("figure.imgLiquidFill").imgLiquid();
+
+	/*----------------
+		IMAGE POPUP
+	----------------*/
+	$('ul.dishes > li > div > a').magnificPopup({
+		type: 'image',
+		removalDelay: 300,
+		mainClass: 'mfp-fade',
+		image: {
+	    	tError: 'The image could not be loaded.'
+	  	},
+	  	closeMarkup: '<span class="mfp-close"></span>'
+	});
+});
+</script>
+</body>
+</html>

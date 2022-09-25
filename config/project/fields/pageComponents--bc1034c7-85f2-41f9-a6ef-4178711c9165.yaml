@@ -1,0 +1,35 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b8cd1a77-869f-4dec-bb22-e2f141373d97 # Common
+handle: pageComponents
+instructions: 'Choose and order the page components to output content'
+name: 'Page Components'
+searchable: true
+settings:
+  allowSelfRelations: false
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+  selectionLabel: 'Add more content'
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:a6b34b9f-6df1-4984-a0ed-21d067ab0195' # Heros
+    - 'section:ce0a2281-7787-4a34-9930-702ed9f183a1' # Menus
+  targetSiteId: null
+  validateRelatedElements: true
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

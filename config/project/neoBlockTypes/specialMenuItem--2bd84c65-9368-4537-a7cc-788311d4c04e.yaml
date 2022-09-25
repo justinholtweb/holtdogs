@@ -1,0 +1,48 @@
+childBlocks: null
+description: ''
+enabled: true
+field: 131b4628-df79-47f8-ba09-b3ef213112be # Menu Specials Items
+fieldLayouts:
+  6af77350-a2b5-4256-a8fd-137e7864b8a0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: dd174446-a1a0-45fb-bf1e-988c752362ff # Menu Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 04f12409-5325-4d62-a8fb-c1a743204377
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0692600b-0ba6-4b6c-b4b1-3066c69e193a # Special Price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c603f23-ff3d-417e-a4e1-5a5bdb14cd9c
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Menu Item'
+        uid: d22cda28-fd6f-48dd-bb22-7c38f37e1295
+        userCondition: null
+group: null
+handle: specialMenuItem
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Special Menu Item'
+sortOrder: 1
+topLevel: true

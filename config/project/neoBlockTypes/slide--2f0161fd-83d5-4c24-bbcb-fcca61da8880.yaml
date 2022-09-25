@@ -1,0 +1,72 @@
+childBlocks: null
+description: ''
+enabled: true
+field: d1be453b-16b3-4a32-a058-d2518e7679c5 # Hero Slides
+fieldLayouts:
+  2b6f1512-142b-4ad0-8583-c4a0441766fb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 38831f15-6d3d-4c42-981d-b3e3b57d7547 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4b27cff0-d051-4883-b6f3-8b9a456c6df9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e9705a7a-4acc-40e5-8323-68f9ef09485e # Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac830f1f-0e04-45fe-9adc-16b813756dd8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 52098f25-8d50-4bc0-9c4b-d815046dd762 # Sub Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 163a11d4-5962-4e97-91e1-28381e778df7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c44dd58-be55-436e-a04f-54a149e89f30 # Link CTA
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b747bcab-651f-41d8-abe8-158c72c1a0d8
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Slide Details'
+        uid: 7a924bef-0693-4301-b9e8-363d5795f5de
+        userCondition: null
+group: null
+handle: slide
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Slide
+sortOrder: 1
+topLevel: true

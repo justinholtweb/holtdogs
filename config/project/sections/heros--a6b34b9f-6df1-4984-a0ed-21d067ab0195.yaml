@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: heros
+name: Heros
+propagationMethod: all
+siteSettings:
+  1c804e03-e137-4bc5-9494-da5b7010d255: # Holts Dogs
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: 6faf4292-d189-448f-bb23-08dc80e4ebd9
+type: structure

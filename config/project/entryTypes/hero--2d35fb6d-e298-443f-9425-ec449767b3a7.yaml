@@ -1,0 +1,73 @@
+fieldLayouts:
+  4e7a56bf-1e6a-4409-a477-bf63a710354f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 40e67d22-b078-416f-a708-0b5b4823ed89
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d1be453b-16b3-4a32-a058-d2518e7679c5 # Hero Slides
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71c419b1-ecd5-4031-bdcd-d92c45773bf9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fd7c0f7f-be6c-4a76-b3e2-77bbbf6caaf8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 291cce60-cee5-4519-ac13-6b4c185778be # Where this is used
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 895a61eb-957c-4712-9e44-c6b31133844d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Usage
+        uid: af3acd7f-80fc-4bc6-8817-9ee6a620040d
+        userCondition: null
+handle: hero
+hasTitleField: true
+name: Hero
+section: a6b34b9f-6df1-4984-a0ed-21d067ab0195 # Heros
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,217 @@
+dateModified: 1664120054
+elementSources:
+  craft\elements\Category:
+    -
+      disabled: false
+      key: 'group:ef155709-e15d-470a-9e88-894998ed1b79' # Food Type
+      tableAttributes:
+        - link
+        - slug
+      type: native
+  craft\elements\Entry:
+    -
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+        - 'field:291cce60-cee5-4519-ac13-6b4c185778be' # Where this is used
+      type: native
+    -
+      disabled: false
+      key: singles
+      tableAttributes:
+        - link
+        - 'field:bc1034c7-85f2-41f9-a6ef-4178711c9165' # Page Components
+      type: native
+    -
+      heading: Components
+      type: heading
+    -
+      disabled: false
+      key: 'section:a6b34b9f-6df1-4984-a0ed-21d067ab0195' # Heros
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - 'field:291cce60-cee5-4519-ac13-6b4c185778be' # Where this is used
+      type: native
+    -
+      disabled: false
+      key: 'section:ce0a2281-7787-4a34-9930-702ed9f183a1' # Menus
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: 'Content Types'
+      type: heading
+    -
+      disabled: false
+      key: 'section:8004e179-44a9-4058-9635-34dde8ff01a7' # Menu Items
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: 'Menu Pages'
+      type: heading
+    -
+      key: 'section:833f7b95-3423-48d6-bcd2-1f8713cbd4a5' # Menu Page
+      type: native
+email:
+  fromEmail: justin@justinholt.com
+  fromName: 'Holts Dogs'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  heroImages:
+    hasUrls: true
+    name: 'Hero Images'
+    settings:
+      path: $HERO_IMAGE_PATH
+    type: craft\fs\Local
+    url: $HERO_IMAGE_URL
+  menuImages:
+    hasUrls: true
+    name: 'Menu Images'
+    settings:
+      path: $MENU_IMAGE_PATH
+    type: craft\fs\Local
+    url: $MENU_IMAGE_URL
+meta:
+  __names__:
+    1c804e03-e137-4bc5-9494-da5b7010d255: 'Holts Dogs' # Holts Dogs
+    1e1726ba-00f8-4953-b100-ade1f2535b51: 'Food Type' # Food Type
+    2bd84c65-9368-4537-a7cc-788311d4c04e: 'Special Menu Item' # Special Menu Item
+    2d35fb6d-e298-443f-9425-ec449767b3a7: Hero # Hero
+    2f0161fd-83d5-4c24-bbcb-fcca61da8880: Slide # Slide
+    02ff2eb7-51b8-432e-a52e-12f5b3fbf090: Home # Home
+    6af778c6-d1f3-48bb-954a-b7b078d1a144: 'Menu Category' # Menu Category
+    6cd1c5ad-3b47-4966-8fbe-248dd48863ae: 'Menu Popular Component' # Menu Popular Component
+    6d7c280d-723e-45e7-b365-5c49710cd2d4: 'Menu Collection Component' # Menu Collection Component
+    007c7c5e-7a90-4b28-b3c3-226f4cd4c719: 'Holts Dogs' # Holts Dogs
+    8c44dd58-be55-436e-a04f-54a149e89f30: 'Link CTA' # Link CTA
+    20c91268-c805-41b0-b0ea-e721d23731e9: 'Thumb Image' # Thumb Image
+    34e5f5a1-cf3d-4b24-a26e-6e072739e1bc: 'Special Bespoke Item' # Special Bespoke Item
+    39a4703d-4a76-4a64-84e1-6da9d337b15d: Item # Item
+    62f3760e-1e42-4073-9014-731d196281d9: Home # Home
+    63a14a8c-8ea5-4106-9de7-ae59581588d5: 'Menu Thumbs' # Menu Thumbs
+    86db7437-2889-46f1-99d0-ff35bc94f5b7: 'Menu Items' # Menu Items
+    131b4628-df79-47f8-ba09-b3ef213112be: 'Menu Specials Items' # Menu Specials Items
+    291cce60-cee5-4519-ac13-6b4c185778be: 'Where this is used' # Where this is used
+    644c9000-ad7a-488c-a6c2-a5ed42a89803: 'Menu Item' # Menu Item
+    833f7b95-3423-48d6-bcd2-1f8713cbd4a5: 'Menu Page' # Menu Page
+    2509fa8e-d195-4240-90f5-eb16a4b66cc5: 'Menu Component' # Menu Component
+    8004e179-44a9-4058-9635-34dde8ff01a7: 'Menu Items' # Menu Items
+    38831f15-6d3d-4c42-981d-b3e3b57d7547: 'Hero Image' # Hero Image
+    52098f25-8d50-4bc0-9c4b-d815046dd762: 'Sub Headline' # Sub Headline
+    081017b7-ca15-4915-aee6-7935c2ed143d: 'Menu Item Component' # Menu Item Component
+    86759ff9-b6ed-439f-8f0d-16297ebfacf6: 'Hero Component' # Hero Component
+    604397c9-e70a-4148-bce5-fa9d0bf1de63: 'Menu Page' # Menu Page
+    0692600b-0ba6-4b6c-b4b1-3066c69e193a: 'Special Price' # Special Price
+    a6b34b9f-6df1-4984-a0ed-21d067ab0195: Heros # Heros
+    a4926139-c3e6-4fa4-862f-97ee8170a148: Related # Related
+    ae9536d9-dd50-426a-b8ca-1f62ef115059: 'Menu Category Component' # Menu Category Component
+    b6bba009-dc96-46ab-b387-d2bd9e68441b: 'Hero Images' # Hero Images
+    b8cd1a77-869f-4dec-bb22-e2f141373d97: Common # Common
+    bc1034c7-85f2-41f9-a6ef-4178711c9165: 'Page Components' # Page Components
+    c3c90446-3b9d-4111-a102-f0dcd272ec4f: Description # Description
+    cb621092-f9bd-4d01-9c34-d3e90af9a5fe: 'Hero Image' # Hero Image
+    ce0a2281-7787-4a34-9930-702ed9f183a1: Menus # Menus
+    d1be453b-16b3-4a32-a058-d2518e7679c5: 'Hero Slides' # Hero Slides
+    dd174446-a1a0-45fb-bf1e-988c752362ff: 'Menu Item' # Menu Item
+    de048661-7be3-453c-85a3-abb21bce4a81: 'Menu Title' # Menu Title
+    e9705a7a-4acc-40e5-8323-68f9ef09485e: Headline # Headline
+    ef155709-e15d-470a-9e88-894998ed1b79: 'Food Type' # Food Type
+    f9dc79d3-ce2b-4d5e-8b89-d30d5a752745: 'Menu Body' # Menu Body
+    f5488158-471a-4b6e-b81a-14c0d8e066a3: 'Menu Specials Component' # Menu Specials Component
+plugins:
+  eager-beaver:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-relations:
+    edition: standard
+    enabled: true
+    licenseKey: AUAJAWPPHHQTIUBUJ4514KKX
+    schemaVersion: 1.0.3
+  entriessubset:
+    edition: standard
+    enabled: true
+    licenseKey: 6D93UDCXNN9MMTA1BFUA70XG
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: BKXMC2H9Y564DB0NWJ3JTR0S
+    schemaVersion: 2.0.3
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: R5BURY9GBLUXPMK2X2KIBVT9
+    schemaVersion: 3.3.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  restrict-deletion:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      adminCanOverride: ''
+      disableForConsoleRequests: ''
+      disableForFrontRequests: ''
+      policies:
+        __assoc__:
+          -
+            - a6b34b9f-6df1-4984-a0ed-21d067ab0195 # Heros
+            - noRevisionsOrDrafts
+          -
+            - 8004e179-44a9-4058-9635-34dde8ff01a7 # Menu Items
+            - noRevisionsOrDrafts
+          -
+            - 833f7b95-3423-48d6-bcd2-1f8713cbd4a5 # Menu Page
+            - none
+          -
+            - ce0a2281-7787-4a34-9930-702ed9f183a1 # Menus
+            - noRevisionsOrDrafts
+          -
+            - ef155709-e15d-470a-9e88-894998ed1b79 # Food Type
+            - noRevisionsOrDrafts
+          -
+            - b6bba009-dc96-46ab-b387-d2bd9e68441b # Hero Images
+            - noRevisionsOrDrafts
+      userPolicy: none
+  reverserelations:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  similar:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Holts Dogs'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

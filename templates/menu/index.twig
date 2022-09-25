@@ -1,0 +1,12 @@
+{% extends "_layout" %}
+{% block content %}
+    {% if entry.level == 2 %}
+        {% include "menu/entry" %}
+    {% else %}
+        {% set components = entry.pageComponents.all() %}
+
+        {% if entry.pageComponents|length %}
+            {% include "components/_router" with components %}
+        {% endif %}
+    {% endif %}
+{% endblock %}

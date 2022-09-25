@@ -1,0 +1,49 @@
+{% set menuItems = component.menuItems.limit(6).orderBy('RAND()').collect() %}
+
+{% if menuItems|length %}
+    <div id="our-dishes-wrap">
+        <section id="our-dishes">
+            <h2>Featured Menu Items</h2>
+            <p>We think you'll love our dogs, sausages, sandwiches, burgers and sides. Try them all and you'll never leave hungry from Holt's Dogs!</p>
+            <hr>
+            {% set groups = menuItems.chunk(3) %}
+            {% for group in groups %}
+                {% if loop.first %}
+                    <article id="dishes-left">
+                {% else %}
+                    <article id="dishes-right">
+                {% endif %}
+                    
+                    {% for menuItem in group %}
+                        <article>
+                            <div>
+                                <h5>{{ menuItem.title }}</h5>
+                                {% set description = menuItem.description %}
+                                {% if description %}
+                                    <div>{{ description }}</div>
+                                {% endif %}
+                            </div>
+                            {% set foodType = menuItem.foodType.one() %}
+                            {% switch foodType.slug %}
+                                {% case "dogs" %}
+                                    <img src="/images/icon-dog.png" alt="Dogs">
+                                {% case "sausages" %}
+                                    <img src="/images/icon-dog.png" alt="Sausages">
+                                {% case "sandwiches" %}
+                                    <img src="/images/icon.png" alt="hamburger">
+                                {% case "burgers" %}
+                                    <img src="/images/icon-burger.png" alt="Burger">
+                                {% case "sides" %}
+                                    <img src="/images/icon.png" alt="hamburger">
+                                {% case "drinks" %}
+                                    <img src="/images/icon.png" alt="hamburger">
+                                {% default %}
+                            {% endswitch %}
+                        </article>
+                    {% endfor %}
+                </article>
+            {% endfor %}
+            <img src="/images/deli-badge.png" alt="deli-badge">
+        </section>
+    </div>
+{% endif %}

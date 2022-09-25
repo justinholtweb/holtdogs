@@ -1,0 +1,60 @@
+childBlocks: null
+description: ''
+enabled: true
+field: 131b4628-df79-47f8-ba09-b3ef213112be # Menu Specials Items
+fieldLayouts:
+  e5842b38-25bc-495d-a76c-8bd841af5e79:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e9705a7a-4acc-40e5-8323-68f9ef09485e # Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd9c6774-9acd-405c-8d4b-26940eb73619
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c3c90446-3b9d-4111-a102-f0dcd272ec4f # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4031184a-baa0-4699-b89f-e16a0c1c4c12
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0692600b-0ba6-4b6c-b4b1-3066c69e193a # Special Price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8175b124-22e8-4ec6-aace-da6f10c85f4e
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Bespoke Item'
+        uid: 4bc4aca1-0fcd-422f-a515-e8de433db687
+        userCondition: null
+group: null
+handle: specialBespokeItem
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Special Bespoke Item'
+sortOrder: 2
+topLevel: true

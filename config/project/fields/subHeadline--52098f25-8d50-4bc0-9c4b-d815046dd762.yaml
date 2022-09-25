@@ -1,0 +1,19 @@
+columnSuffix: cxhnuwfc
+contentColumnType: text
+fieldGroup: b8cd1a77-869f-4dec-bb22-e2f141373d97 # Common
+handle: subHeadline
+instructions: null
+name: 'Sub Headline'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: menuPage
+name: 'Menu Page'
+propagationMethod: all
+siteSettings:
+  1c804e03-e137-4bc5-9494-da5b7010d255: # Holts Dogs
+    enabledByDefault: true
+    hasUrls: true
+    template: menu/index.twig
+    uriFormat: '{% if level == 1 %}menu{% else %}menu/{slug}{% endif %}'
+structure:
+  maxLevels: null
+  uid: b319fcc5-6a33-44e0-98f3-08ceb396fb26
+type: structure

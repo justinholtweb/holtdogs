@@ -1,0 +1,19 @@
+columnSuffix: uaithtxz
+contentColumnType: text
+fieldGroup: 6af778c6-d1f3-48bb-954a-b7b078d1a144 # Menu Category
+handle: menuTitle
+instructions: null
+name: 'Menu Title'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

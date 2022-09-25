@@ -1,0 +1,73 @@
+fieldLayouts:
+  b25c9b20-05de-410e-8a64-9fb0db73e9b7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: dd6d0080-0eee-438d-a072-edb4b40ec5dc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86db7437-2889-46f1-99d0-ff35bc94f5b7 # Menu Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 60c930fe-f4cd-41c2-a56a-7fc640722a6a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6563dfa2-4d26-4aa6-94f6-71b101f5b49e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 291cce60-cee5-4519-ac13-6b4c185778be # Where this is used
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7a7a910-4180-4c44-9cfa-98764418d4e1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Usage
+        uid: 2b7cbfac-f6df-46cb-a042-3269ed185f1f
+        userCondition: null
+handle: menuPopularComponent
+hasTitleField: true
+name: 'Menu Popular Component'
+section: ce0a2281-7787-4a34-9930-702ed9f183a1 # Menus
+sortOrder: 3
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

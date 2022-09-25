@@ -1,0 +1,50 @@
+{% set menuTitle = 'Our Menu Selections' %}
+{% set menuBody = 'We think you\'ll love our dogs, sausages, sandwiches, burgers and sides. Try them all and you\'ll never leave hungry from Holt\'s Dogs!' %}
+
+{% set menuCategory = component.foodType.one() %}
+
+{% if menuCategory %}
+    {% set menuTitle = menuCategory.menuTitle %}
+    {% set menuBody = menuCategory.menuBody %}
+{% endif %}
+
+
+<div id="menu-wrap">
+    <section id="menu">
+        <h2>{{ menuTitle }}</h2>
+        <p>{{ menuBody }}</p>
+        <hr>
+        {% set menuCategories = craft.categories.group('foodType').collect() %}
+        <ul id="menu-nav" class="text-nav">
+            {% for category in menuCategories %}
+                <li{% if craft.app.request.segment(-1) == category.slug %} class="selected"{% endif %}>
+                    <a href="/menu/{{ category.slug }}">{{ category.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+        {% if menuCategory %}
+            {% set menuEntries = craft.entries().section('menuItems').relatedTo(menuCategory).with([
+                'thumbImage'
+            ]).collect() %}
+        {% else %}
+            {% set menuEntries = craft.entries().section('menuItems').with([
+                'thumbImage'
+            ]).collect() %}
+        {% endif %}
+        
+        <ul class="dishes v3">
+            {% for item in menuEntries %}
+                <li>
+                    <div class="thumb-image">
+                        {% if item.thumbImage.one() %}
+                            <img src="{{ item.thumbImage.one().url() }}" alt="">
+                        {% endif %}
+                    </div>
+                    <h5>{{ item.title }}</h5>
+                    <div>{{ item.description }}</div>
+                    <p>$15.00</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+</div>

@@ -1,0 +1,73 @@
+fieldLayouts:
+  1740590c-1cff-41bb-b1f6-f0d2c8023e72:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 18e7566c-53fb-4219-878b-ef90391d2eac
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86db7437-2889-46f1-99d0-ff35bc94f5b7 # Menu Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ec52b3b4-fb5e-46c4-aad6-4b80a6b2cfdd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ce44d043-9dc1-48e0-922d-652408d1d679
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 291cce60-cee5-4519-ac13-6b4c185778be # Where this is used
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d95b3366-fcdd-4125-8c68-5f3cd4eab657
+            userCondition: null
+            warning: null
+            width: 100
+        name: Usage
+        uid: c4fc2e17-6016-47d7-ac4d-2a48fa55c280
+        userCondition: null
+handle: menuCollectionComponent
+hasTitleField: true
+name: 'Menu Collection Component'
+section: ce0a2281-7787-4a34-9930-702ed9f183a1 # Menus
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

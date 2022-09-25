@@ -1,0 +1,25 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 644c9000-ad7a-488c-a6c2-a5ed42a89803 # Menu Item
+handle: foodType
+instructions: null
+name: 'Food Type'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: 1
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Select a Food Type'
+  showSiteMenu: false
+  source: 'group:ef155709-e15d-470a-9e88-894998ed1b79' # Food Type
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: true
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

@@ -1,0 +1,9 @@
+{% extends "_layout" %}
+
+{% set components = entry.pageComponents.all() %}
+
+{% block content %}
+	{% if entry.pageComponents|length %}
+		{% include "components/_router" with components %}
+	{% endif %}
+{% endblock %}

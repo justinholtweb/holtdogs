@@ -1,0 +1,70 @@
+defaultPlacement: end
+fieldLayouts:
+  5a48fd32-629a-4ec2-9934-0268230a4477:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: c44992c2-61bb-4ac9-9219-cefd473d0c4b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: de048661-7be3-453c-85a3-abb21bce4a81 # Menu Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d6d0556-a3f2-4581-aede-42f561e4b6d6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f9dc79d3-ce2b-4d5e-8b89-d30d5a752745 # Menu Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65fda764-e544-441a-9eaa-87140bd52ebf
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 98d43360-f31f-4074-9f43-3ec338d991a0
+        userCondition: null
+handle: foodType
+name: 'Food Type'
+siteSettings:
+  1c804e03-e137-4bc5-9494-da5b7010d255: # Holts Dogs
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: 03038e75-2e87-4e75-ab24-70c53b727762

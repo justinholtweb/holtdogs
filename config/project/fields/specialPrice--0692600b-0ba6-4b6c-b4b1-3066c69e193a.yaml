@@ -1,0 +1,19 @@
+columnSuffix: qizpgbgk
+contentColumnType: text
+fieldGroup: 2509fa8e-d195-4240-90f5-eb16a4b66cc5 # Menu Component
+handle: specialPrice
+instructions: null
+name: 'Special Price'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,10 @@
+columnSuffix: mjalznwv
+contentColumnType: string
+fieldGroup: a4926139-c3e6-4fa4-862f-97ee8170a148 # Related
+handle: whereThisIsUsed
+instructions: null
+name: 'Where this is used'
+searchable: false
+translationKeyFormat: null
+translationMethod: none
+type: internetztube\elementRelations\fields\ElementRelationsField

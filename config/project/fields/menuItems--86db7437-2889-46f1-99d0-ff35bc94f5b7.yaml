@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 2509fa8e-d195-4240-90f5-eb16a4b66cc5 # Menu Component
+handle: menuItems
+instructions: null
+name: 'Menu Items'
+searchable: true
+settings:
+  allowSelfRelations: false
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+  selectionLabel: 'Add a Menu Item'
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:8004e179-44a9-4058-9635-34dde8ff01a7' # Menu Items
+  targetSiteId: null
+  validateRelatedElements: true
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

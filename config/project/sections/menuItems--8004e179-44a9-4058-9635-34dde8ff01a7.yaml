@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: menuItems
+name: 'Menu Items'
+propagationMethod: all
+siteSettings:
+  1c804e03-e137-4bc5-9494-da5b7010d255: # Holts Dogs
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: b5933ed2-f220-4460-97ed-46feded92a58
+type: structure

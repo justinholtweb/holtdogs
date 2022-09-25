@@ -1,0 +1,19 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 86759ff9-b6ed-439f-8f0d-16297ebfacf6 # Hero Component
+handle: heroSlides
+instructions: null
+name: 'Hero Slides'
+searchable: true
+settings:
+  maxBlocks: null
+  maxLevels: 1
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

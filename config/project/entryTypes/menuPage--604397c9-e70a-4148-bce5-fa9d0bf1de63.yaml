@@ -1,0 +1,67 @@
+fieldLayouts:
+  dc3b3e3e-ee3e-4e48-9e0a-6e98819a24d9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 34af541a-9c40-4e5d-85c1-f67827167276
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1e1726ba-00f8-4953-b100-ade1f2535b51 # Food Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc8ca294-58b2-4ec8-a8a0-c7d8d2f2800a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bc1034c7-85f2-41f9-a6ef-4178711c9165 # Page Components
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dde6bdf2-25fb-4725-81d7-92c550df5967
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 81a19e26-4ad1-473c-a8e4-4c19e393a3e1
+        userCondition: null
+handle: menuPage
+hasTitleField: true
+name: 'Menu Page'
+section: 833f7b95-3423-48d6-bcd2-1f8713cbd4a5 # Menu Page
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
