@@ -1,4 +1,4 @@
-dateModified: 1664209407
+dateModified: 1664235023
 elementSources:
   craft\elements\Category:
     -
@@ -122,7 +122,7 @@ meta:
     6cbf57be-a3e0-4bce-b384-7aa42e280745: 'Menu Popular' # Menu Popular
     6cd1c5ad-3b47-4966-8fbe-248dd48863ae: 'Menu Popular Component' # Menu Popular Component
     6d7c280d-723e-45e7-b365-5c49710cd2d4: 'Menu Collection Component' # Menu Collection Component
-    6f9399dd-d22d-4d5d-bdf3-5e7b6d943895: 'Hero Slides - Matrix'
+    6f9399dd-d22d-4d5d-bdf3-5e7b6d943895: 'Hero Slides - Matrix' # Hero Slides - Matrix
     007c7c5e-7a90-4b28-b3c3-226f4cd4c719: 'Holts Dogs' # Holts Dogs
     8c44dd58-be55-436e-a04f-54a149e89f30: 'Link CTA' # Link CTA
     20c91268-c805-41b0-b0ea-e721d23731e9: 'Thumb Image' # Thumb Image
@@ -147,7 +147,7 @@ meta:
     604397c9-e70a-4148-bce5-fa9d0bf1de63: 'Menu Page' # Menu Page
     0692600b-0ba6-4b6c-b4b1-3066c69e193a: 'Special Price' # Special Price
     817759c0-5a77-438e-8fe9-0d413397f0ef: Hero # Hero
-    15440698-604f-4848-b799-baa1b0d9bd28: Slide
+    15440698-604f-4848-b799-baa1b0d9bd28: Slide # Slide
     88139711-9b2c-4898-8708-b06dff4ebb34: 'Menu Specials' # Menu Specials
     a6b34b9f-6df1-4984-a0ed-21d067ab0195: Heros # Heros
     a4926139-c3e6-4fa4-862f-97ee8170a148: Related # Related
@@ -166,7 +166,7 @@ meta:
     d1be453b-16b3-4a32-a058-d2518e7679c5: 'Hero Slides' # Hero Slides
     dd174446-a1a0-45fb-bf1e-988c752362ff: 'Menu Item' # Menu Item
     de048661-7be3-453c-85a3-abb21bce4a81: 'Menu Title' # Menu Title
-    e3eecd6a-baba-4a00-995b-e0adb05e343d: 'Hero Image'
+    e3eecd6a-baba-4a00-995b-e0adb05e343d: 'Hero Image' # Hero Image
     e73d7696-f650-4b27-94da-44d77d35b8ed: 'Body Text' # Body Text
     e9705a7a-4acc-40e5-8323-68f9ef09485e: Headline # Headline
     ef155709-e15d-470a-9e88-894998ed1b79: 'Food Type' # Food Type

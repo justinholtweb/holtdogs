@@ -1,4 +1,4 @@
-field: 6f9399dd-d22d-4d5d-bdf3-5e7b6d943895
+field: 6f9399dd-d22d-4d5d-bdf3-5e7b6d943895 # Hero Slides - Matrix
 fieldLayouts:
   08d0664c-d69e-4d67-8460-f3cf6b844055:
     tabs:
@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: e3eecd6a-baba-4a00-995b-e0adb05e343d
+            fieldUid: e3eecd6a-baba-4a00-995b-e0adb05e343d # Hero Image
             instructions: null
             label: null
             required: false
@@ -21,7 +21,7 @@ fieldLayouts:
         uid: eb023d12-c11a-49ea-a636-a1ad64d60f44
         userCondition: null
 fields:
-  e3eecd6a-baba-4a00-995b-e0adb05e343d:
+  e3eecd6a-baba-4a00-995b-e0adb05e343d: # Hero Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
