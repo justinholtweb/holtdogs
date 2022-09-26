@@ -20,7 +20,7 @@ return GeneralConfig::create()
     // Prevent generated URLs from including "index.php"
     ->omitScriptNameInUrls()
     // Enable Dev Mode on the dev environment (see https://craftcms.com/guides/what-dev-mode-does)
-    ->devMode($isDev)
+    ->devMode('true')
     // Only allow administrative changes on the dev environment
     ->allowAdminChanges($isDev)
     // Disallow robots everywhere except the production environment
