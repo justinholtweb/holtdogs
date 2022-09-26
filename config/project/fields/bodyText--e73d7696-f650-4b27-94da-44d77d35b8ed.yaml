@@ -1,0 +1,27 @@
+columnSuffix: pcmkdsdx
+contentColumnType: text
+fieldGroup: b8cd1a77-869f-4dec-bb22-e2f141373d97 # Common
+handle: bodyText
+instructions: null
+name: 'Body Text'
+searchable: true
+settings:
+  availableTransforms: '*'
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

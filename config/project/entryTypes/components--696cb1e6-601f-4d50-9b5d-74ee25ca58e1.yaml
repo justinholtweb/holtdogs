@@ -1,5 +1,5 @@
 fieldLayouts:
-  6a70d003-06d9-45d5-8ff2-248741b55341:
+  9e5ade6d-9ee1-4e8a-9a95-491495fd6da5:
     tabs:
       -
         elementCondition: null
@@ -26,36 +26,24 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 723204ff-78f6-4d82-8422-1af23450a6fc
+            uid: 9a4da895-2155-4ff1-a99a-2b0aa95886a2
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1e1726ba-00f8-4953-b100-ade1f2535b51 # Food Type
+            fieldUid: e73d7696-f650-4b27-94da-44d77d35b8ed # Body Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8a1f3ab3-997a-4089-88a0-c5feb381a5f3
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 86db7437-2889-46f1-99d0-ff35bc94f5b7 # Menu Items
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 2511d273-7960-4596-948a-fabd004f78b2
+            uid: 1e8d1dbc-5a31-44c9-9cf4-a389e960782a
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: cc54e1c4-adbf-4471-bbee-c17689b05a73
+        uid: 2df6738d-ff88-456e-849d-8c1468bdf4fc
         userCondition: null
       -
         elementCondition: null
@@ -68,18 +56,18 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8f58e4e6-e26a-4301-a653-3fed94e3a6ba
+            uid: c7c41a12-fc1c-4f73-9518-e7ea107254ec
             userCondition: null
             warning: null
             width: 100
         name: Usage
-        uid: db7788cf-7889-499b-a76c-2fb6b7bcc57a
+        uid: 1e1f2f69-afd7-45e0-88da-08ed45cf22a5
         userCondition: null
-handle: menuCategoryComponent
+handle: components
 hasTitleField: true
-name: 'Menu Category Component'
-section: ce0a2281-7787-4a34-9930-702ed9f183a1 # Menus
-sortOrder: 5
+name: Components
+section: be6c5c79-5a2f-4df0-8b79-a4f6b7cdb0e3 # Body Texts
+sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1296ff23754c468a3d70c801c428c98e",
+    "content-hash": "997c14c38d8e38bdbe81d0a3ced4b9da",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1870,57 +1870,6 @@
             "time": "2022-07-24T11:55:47+00:00"
         },
         {
-            "name": "nfourtythree/entriessubset",
-            "version": "2.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nfourtythree/entriessubset/zipball/5bd514065d7ab41313ccbfe56a61ddbf2a11793f",
-                "reference": "5bd514065d7ab41313ccbfe56a61ddbf2a11793f",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0",
-                "php": "^8.0.2"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Entries Subset",
-                "handle": "entriessubset",
-                "documentationUrl": "https://raw.githubusercontent.com/nfourtythree/entriessubset/master/README.md"
-            },
-            "autoload": {
-                "psr-4": {
-                    "nfourtythree\\entriessubset\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nathaniel Hammond (nfourtythree)",
-                    "homepage": "https://n43.me"
-                }
-            ],
-            "description": "Craft field type plugin that extends the core Entries field type to give extra settings with ability to restrict by entry type",
-            "keywords": [
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craft3",
-                "craftcms",
-                "entries subset",
-                "entriessubset",
-                "entry types",
-                "entrytype"
-            ],
-            "support": {
-                "docs": "https://github.com/nfourtythree/entriessubset/blob/master/README.md",
-                "issues": "https://github.com/nfourtythree/entriessubset/issues"
-            },
-            "time": "2022-05-10T12:38:57+00:00"
-        },
-        {
             "name": "nystudio107/craft-eagerbeaver",
             "version": "4.0.2",
             "dist": {
@@ -1969,55 +1918,6 @@
                 "source": "https://github.com/nystudio107/craft-eagerbeaver"
             },
             "time": "2022-08-17T15:57:58+00:00"
-        },
-        {
-            "name": "nystudio107/craft-similar",
-            "version": "4.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-similar/zipball/2b50aebababad5446a0235199a27805e2e96127c",
-                "reference": "2b50aebababad5446a0235199a27805e2e96127c",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "class": "nystudio107\\similar\\Similar",
-                "handle": "similar",
-                "name": "Similar"
-            },
-            "autoload": {
-                "psr-4": {
-                    "nystudio107\\similar\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "nystudio107.com",
-                    "homepage": "https://nystudio107.com/"
-                }
-            ],
-            "description": "Similar for Craft lets you find elements, Entries, Categories, Commerce Products, etc, that are similar, based on... other related elements.",
-            "keywords": [
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms",
-                "elements",
-                "relations",
-                "similar"
-            ],
-            "support": {
-                "docs": "https://nystudio107.com/docs/similar/",
-                "issues": "https://nystudio107.com/plugins/similar/support",
-                "source": "https://github.com/nystudio107/craft-similar"
-            },
-            "time": "2022-05-09T17:38:24+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2682,52 +2582,6 @@
             "time": "2022-02-11T10:27:51+00:00"
         },
         {
-            "name": "robuust/craft-reverserelations",
-            "version": "2.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/robuust/craft-reverserelations/zipball/0ae651cfe1b90b1c5e920d9e55ac1ffebdbd4417",
-                "reference": "0ae651cfe1b90b1c5e920d9e55ac1ffebdbd4417",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0",
-                "php": "^8.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "schemaVersion": "1.0.1",
-                "handle": "reverserelations",
-                "name": "Reverse Relations",
-                "developer": "Robuust",
-                "developerUrl": "https://robuust.digital",
-                "documentationUrl": "https://github.com/robuust/craft-reverserelations/blob/master/README.md",
-                "changelogUrl": "https://github.com/robuust/craft-reverserelations/blob/master/CHANGELOG.md",
-                "downloadUrl": "https://github.com/robuust/craft-reverserelations/releases/latest",
-                "hasSettings": false,
-                "hasCpSection": false
-            },
-            "autoload": {
-                "psr-4": {
-                    "robuust\\reverserelations\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bob Olde Hampsink",
-                    "email": "bob@robuust.digital"
-                }
-            ],
-            "description": "Reverse Relations for Craft",
-            "support": {
-                "email": "bob@robuust.digital"
-            },
-            "time": "2022-05-18T05:58:12+00:00"
-        },
-        {
             "name": "ryssbowh/craft-restrict-deletions",
             "version": "2.0.1",
             "dist": {
@@ -2810,66 +2664,6 @@
                 "yii"
             ],
             "time": "2020-07-16T12:34:01+00:00"
-        },
-        {
-            "name": "sebastianlenz/craft-utils",
-            "version": "3.0.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastian-lenz/craft-utils/zipball/043a2971c4fb8a3775f9a65502ca11db66b628a2",
-                "reference": "043a2971c4fb8a3775f9a65502ca11db66b628a2",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0-beta",
-                "php": "^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "lenz\\craft\\utils\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A collection of utility classes for Craft CMS development",
-            "time": "2022-05-18T10:09:29+00:00"
-        },
-        {
-            "name": "sebastianlenz/linkfield",
-            "version": "2.1.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastian-lenz/craft-linkfield/zipball/0648b7f8a8f970b029ab20b9a2e7805756f0e97c",
-                "reference": "0648b7f8a8f970b029ab20b9a2e7805756f0e97c",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0-beta",
-                "php": "^8.0",
-                "sebastianlenz/craft-utils": "^3.0.2"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "handle": "typedlinkfield",
-                "name": "Typed link field",
-                "developer": "Sebastian Lenz",
-                "developerUrl": "https://github.com/sebastian-lenz/"
-            },
-            "autoload": {
-                "classmap": [
-                    "legacy"
-                ],
-                "psr-4": {
-                    "lenz\\linkfield\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A Craft field type for selecting links",
-            "time": "2022-08-18T08:23:15+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -4482,59 +4276,6 @@
             ],
             "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
             "time": "2022-05-05T00:04:02+00:00"
-        },
-        {
-            "name": "verbb/navigation",
-            "version": "2.0.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/verbb/navigation/zipball/e80f7dbe4ae68baa5a6b3877ccbe70a78322df65",
-                "reference": "e80f7dbe4ae68baa5a6b3877ccbe70a78322df65",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0",
-                "php": "^8.0.2",
-                "verbb/base": "^2.0.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Navigation",
-                "handle": "navigation",
-                "changelogUrl": "https://raw.githubusercontent.com/verbb/navigation/craft-4/CHANGELOG.md",
-                "class": "verbb\\navigation\\Navigation"
-            },
-            "autoload": {
-                "psr-4": {
-                    "verbb\\navigation\\": "src/"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Verbb",
-                    "homepage": "https://verbb.io"
-                }
-            ],
-            "description": "A Craft CMS plugin to create navigation menus for your site.",
-            "keywords": [
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms",
-                "menu",
-                "navigation"
-            ],
-            "support": {
-                "email": "support@verbb.io",
-                "issues": "https://github.com/verbb/navigation/issues?state=open",
-                "source": "https://github.com/verbb/navigation",
-                "docs": "https://github.com/verbb/navigation",
-                "rss": "https://github.com/verbb/navigation/commits/v2.atom"
-            },
-            "time": "2022-08-31T02:15:31+00:00"
         },
         {
             "name": "verbb/super-table",

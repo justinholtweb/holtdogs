@@ -22,9 +22,10 @@ settings:
         - class
         - craft\elements\conditions\entries\EntryCondition
   selectionLabel: 'Add more content'
-  showSiteMenu: false
+  showSiteMenu: true
   source: null
   sources:
+    - 'section:be6c5c79-5a2f-4df0-8b79-a4f6b7cdb0e3' # Body Texts
     - 'section:a6b34b9f-6df1-4984-a0ed-21d067ab0195' # Heros
     - 'section:ce0a2281-7787-4a34-9930-702ed9f183a1' # Menus
   targetSiteId: null

@@ -1,12 +1,15 @@
 defaultPlacement: end
 enableVersioning: true
-handle: home
-name: Home
+handle: entry
+name: Entry
 propagationMethod: all
 siteSettings:
   1c804e03-e137-4bc5-9494-da5b7010d255: # Holts Dogs
     enabledByDefault: true
     hasUrls: true
-    template: _entry.twig
-    uriFormat: __home__
-type: single
+    template: _entry
+    uriFormat: '{slug}'
+structure:
+  maxLevels: 1
+  uid: 6630ef33-3249-43be-bbef-6cca4c34b146
+type: structure

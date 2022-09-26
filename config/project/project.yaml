@@ -1,4 +1,4 @@
-dateModified: 1664120054
+dateModified: 1664148603
 elementSources:
   craft\elements\Category:
     -
@@ -33,8 +33,6 @@ elementSources:
       disabled: false
       key: 'section:a6b34b9f-6df1-4984-a0ed-21d067ab0195' # Heros
       tableAttributes:
-        - postDate
-        - expiryDate
         - link
         - 'field:291cce60-cee5-4519-ac13-6b4c185778be' # Where this is used
       type: native
@@ -42,9 +40,15 @@ elementSources:
       disabled: false
       key: 'section:ce0a2281-7787-4a34-9930-702ed9f183a1' # Menus
       tableAttributes:
-        - postDate
-        - expiryDate
         - link
+        - 'field:291cce60-cee5-4519-ac13-6b4c185778be' # Where this is used
+      type: native
+    -
+      disabled: false
+      key: 'section:be6c5c79-5a2f-4df0-8b79-a4f6b7cdb0e3' # Body Texts
+      tableAttributes:
+        - link
+        - 'field:291cce60-cee5-4519-ac13-6b4c185778be' # Where this is used
       type: native
     -
       heading: 'Content Types'
@@ -53,16 +57,35 @@ elementSources:
       disabled: false
       key: 'section:8004e179-44a9-4058-9635-34dde8ff01a7' # Menu Items
       tableAttributes:
-        - postDate
-        - expiryDate
         - link
+        - 'field:cb621092-f9bd-4d01-9c34-d3e90af9a5fe' # Hero Image
+        - 'field:20c91268-c805-41b0-b0ea-e721d23731e9' # Thumb Image
+        - 'field:1e1726ba-00f8-4953-b100-ade1f2535b51' # Food Type
       type: native
     -
       heading: 'Menu Pages'
       type: heading
     -
+      disabled: false
       key: 'section:833f7b95-3423-48d6-bcd2-1f8713cbd4a5' # Menu Page
+      tableAttributes:
+        - link
+        - 'field:1e1726ba-00f8-4953-b100-ade1f2535b51' # Food Type
+        - 'field:bc1034c7-85f2-41f9-a6ef-4178711c9165' # Page Components
       type: native
+    -
+      heading: 'Custom Pages'
+      type: heading
+    -
+      disabled: false
+      key: 'section:81cd123f-fa9e-4fbc-bc0a-06d4cd3b69af' # Entry
+      tableAttributes:
+        - link
+        - 'field:bc1034c7-85f2-41f9-a6ef-4178711c9165' # Page Components
+      type: native
+    -
+      heading: ''
+      type: heading
 email:
   fromEmail: justin@justinholt.com
   fromName: 'Holts Dogs'
@@ -100,10 +123,12 @@ meta:
     39a4703d-4a76-4a64-84e1-6da9d337b15d: Item # Item
     62f3760e-1e42-4073-9014-731d196281d9: Home # Home
     63a14a8c-8ea5-4106-9de7-ae59581588d5: 'Menu Thumbs' # Menu Thumbs
+    81cd123f-fa9e-4fbc-bc0a-06d4cd3b69af: Entry # Entry
     86db7437-2889-46f1-99d0-ff35bc94f5b7: 'Menu Items' # Menu Items
     131b4628-df79-47f8-ba09-b3ef213112be: 'Menu Specials Items' # Menu Specials Items
     291cce60-cee5-4519-ac13-6b4c185778be: 'Where this is used' # Where this is used
     644c9000-ad7a-488c-a6c2-a5ed42a89803: 'Menu Item' # Menu Item
+    696cb1e6-601f-4d50-9b5d-74ee25ca58e1: Components # Components
     833f7b95-3423-48d6-bcd2-1f8713cbd4a5: 'Menu Page' # Menu Page
     2509fa8e-d195-4240-90f5-eb16a4b66cc5: 'Menu Component' # Menu Component
     8004e179-44a9-4058-9635-34dde8ff01a7: 'Menu Items' # Menu Items
@@ -119,12 +144,15 @@ meta:
     b6bba009-dc96-46ab-b387-d2bd9e68441b: 'Hero Images' # Hero Images
     b8cd1a77-869f-4dec-bb22-e2f141373d97: Common # Common
     bc1034c7-85f2-41f9-a6ef-4178711c9165: 'Page Components' # Page Components
+    be6c5c79-5a2f-4df0-8b79-a4f6b7cdb0e3: 'Body Texts' # Body Texts
     c3c90446-3b9d-4111-a102-f0dcd272ec4f: Description # Description
     cb621092-f9bd-4d01-9c34-d3e90af9a5fe: 'Hero Image' # Hero Image
+    cc18f1c1-423f-4d1a-b560-da906f1aa33c: Entry # Entry
     ce0a2281-7787-4a34-9930-702ed9f183a1: Menus # Menus
     d1be453b-16b3-4a32-a058-d2518e7679c5: 'Hero Slides' # Hero Slides
     dd174446-a1a0-45fb-bf1e-988c752362ff: 'Menu Item' # Menu Item
     de048661-7be3-453c-85a3-abb21bce4a81: 'Menu Title' # Menu Title
+    e73d7696-f650-4b27-94da-44d77d35b8ed: 'Body Text' # Body Text
     e9705a7a-4acc-40e5-8323-68f9ef09485e: Headline # Headline
     ef155709-e15d-470a-9e88-894998ed1b79: 'Food Type' # Food Type
     f9dc79d3-ce2b-4d5e-8b89-d30d5a752745: 'Menu Body' # Menu Body
@@ -139,16 +167,6 @@ plugins:
     enabled: true
     licenseKey: AUAJAWPPHHQTIUBUJ4514KKX
     schemaVersion: 1.0.3
-  entriessubset:
-    edition: standard
-    enabled: true
-    licenseKey: 6D93UDCXNN9MMTA1BFUA70XG
-    schemaVersion: 1.0.0
-  navigation:
-    edition: standard
-    enabled: true
-    licenseKey: BKXMC2H9Y564DB0NWJ3JTR0S
-    schemaVersion: 2.0.3
   neo:
     edition: standard
     enabled: true
@@ -187,22 +205,10 @@ plugins:
             - b6bba009-dc96-46ab-b387-d2bd9e68441b # Hero Images
             - noRevisionsOrDrafts
       userPolicy: none
-  reverserelations:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
-  similar:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   super-table:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0
-  typedlinkfield:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.0.0
 system:
   edition: solo
   live: true
