@@ -1,4 +1,4 @@
-dateModified: 1664235023
+dateModified: 1664235753
 elementSources:
   craft\elements\Category:
     -
@@ -135,7 +135,7 @@ meta:
     131b4628-df79-47f8-ba09-b3ef213112be: 'Menu Specials Items' # Menu Specials Items
     291cce60-cee5-4519-ac13-6b4c185778be: 'Where this is used' # Where this is used
     644c9000-ad7a-488c-a6c2-a5ed42a89803: 'Menu Item' # Menu Item
-    696cb1e6-601f-4d50-9b5d-74ee25ca58e1: Components # Components
+    696cb1e6-601f-4d50-9b5d-74ee25ca58e1: 'Body Text' # Components
     833f7b95-3423-48d6-bcd2-1f8713cbd4a5: 'Menu Page' # Menu Page
     2509fa8e-d195-4240-90f5-eb16a4b66cc5: 'Menu Component' # Menu Component
     8004e179-44a9-4058-9635-34dde8ff01a7: 'Menu Items' # Menu Items

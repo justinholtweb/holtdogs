@@ -63,9 +63,9 @@ fieldLayouts:
         name: Usage
         uid: 1e1f2f69-afd7-45e0-88da-08ed45cf22a5
         userCondition: null
-handle: components
+handle: bodyText
 hasTitleField: true
-name: Components
+name: 'Body Text'
 section: be6c5c79-5a2f-4df0-8b79-a4f6b7cdb0e3 # Body Texts
 sortOrder: 1
 titleFormat: null

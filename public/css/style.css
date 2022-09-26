@@ -2224,6 +2224,15 @@ footer #copy > nav > ul > li > a:hover {
 	padding-right: 2.439024390243902%;
 }
 
+article.post {
+	padding: 60px 12.439024390243902%;
+}
+
+article.post p {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
 /*------------------
   23.1 POST LIST
 ------------------*/
