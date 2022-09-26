@@ -1,12 +1,12 @@
 {
   "require": {
-    "craftcms/cms": "^4.2.0.2",
+    "craftcms/cms": "4.2.5.1",
     "craftcms/redactor": "3.0.2",
     "internetztube/craft-element-relations": "2.0.2",
     "nystudio107/craft-eagerbeaver": "4.0.2",
     "ryssbowh/craft-restrict-deletions": "2.0.1",
-    "spicyweb/craft-neo": "3.3.5",
-    "verbb/super-table": "3.0.0",
+    "spicyweb/craft-neo": "3.3.9",
+    "verbb/super-table": "3.0.1",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
