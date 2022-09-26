@@ -1,4 +1,4 @@
-dateModified: 1664155870
+dateModified: 1664209407
 elementSources:
   craft\elements\Category:
     -
@@ -113,13 +113,16 @@ meta:
   __names__:
     1c804e03-e137-4bc5-9494-da5b7010d255: 'Holts Dogs' # Holts Dogs
     1e1726ba-00f8-4953-b100-ade1f2535b51: 'Food Type' # Food Type
+    2b619439-60e6-4144-b9b3-b6ed20960986: 'Home by Neo' # Home by Neo
     2bd84c65-9368-4537-a7cc-788311d4c04e: 'Special Menu Item' # Special Menu Item
     2d35fb6d-e298-443f-9425-ec449767b3a7: Hero # Hero
     2f0161fd-83d5-4c24-bbcb-fcca61da8880: Slide # Slide
     02ff2eb7-51b8-432e-a52e-12f5b3fbf090: Home # Home
     6af778c6-d1f3-48bb-954a-b7b078d1a144: 'Menu Category' # Menu Category
+    6cbf57be-a3e0-4bce-b384-7aa42e280745: 'Menu Popular' # Menu Popular
     6cd1c5ad-3b47-4966-8fbe-248dd48863ae: 'Menu Popular Component' # Menu Popular Component
     6d7c280d-723e-45e7-b365-5c49710cd2d4: 'Menu Collection Component' # Menu Collection Component
+    6f9399dd-d22d-4d5d-bdf3-5e7b6d943895: 'Hero Slides - Matrix'
     007c7c5e-7a90-4b28-b3c3-226f4cd4c719: 'Holts Dogs' # Holts Dogs
     8c44dd58-be55-436e-a04f-54a149e89f30: 'Link CTA' # Link CTA
     20c91268-c805-41b0-b0ea-e721d23731e9: 'Thumb Image' # Thumb Image
@@ -137,26 +140,33 @@ meta:
     2509fa8e-d195-4240-90f5-eb16a4b66cc5: 'Menu Component' # Menu Component
     8004e179-44a9-4058-9635-34dde8ff01a7: 'Menu Items' # Menu Items
     38831f15-6d3d-4c42-981d-b3e3b57d7547: 'Hero Image' # Hero Image
+    48502f48-484c-442b-b19a-54b575dd7a34: 'Menu Category' # Menu Category
     52098f25-8d50-4bc0-9c4b-d815046dd762: 'Sub Headline' # Sub Headline
     081017b7-ca15-4915-aee6-7935c2ed143d: 'Menu Item Component' # Menu Item Component
     86759ff9-b6ed-439f-8f0d-16297ebfacf6: 'Hero Component' # Hero Component
     604397c9-e70a-4148-bce5-fa9d0bf1de63: 'Menu Page' # Menu Page
     0692600b-0ba6-4b6c-b4b1-3066c69e193a: 'Special Price' # Special Price
+    817759c0-5a77-438e-8fe9-0d413397f0ef: Hero # Hero
+    15440698-604f-4848-b799-baa1b0d9bd28: Slide
+    88139711-9b2c-4898-8708-b06dff4ebb34: 'Menu Specials' # Menu Specials
     a6b34b9f-6df1-4984-a0ed-21d067ab0195: Heros # Heros
     a4926139-c3e6-4fa4-862f-97ee8170a148: Related # Related
-    aad6163c-88d6-45eb-97be-78935ffcb552: 'Public Schema'
+    aad6163c-88d6-45eb-97be-78935ffcb552: 'Public Schema' # Public Schema
     ae9536d9-dd50-426a-b8ca-1f62ef115059: 'Menu Category Component' # Menu Category Component
     b6bba009-dc96-46ab-b387-d2bd9e68441b: 'Hero Images' # Hero Images
     b8cd1a77-869f-4dec-bb22-e2f141373d97: Common # Common
+    b42b8396-352b-4052-b2cb-49107b48cca1: 'Component Builder (Neo)' # Component Builder (Neo)
     bc1034c7-85f2-41f9-a6ef-4178711c9165: 'Page Components' # Page Components
     be6c5c79-5a2f-4df0-8b79-a4f6b7cdb0e3: 'Body Texts' # Body Texts
     c3c90446-3b9d-4111-a102-f0dcd272ec4f: Description # Description
+    cadd7965-83ed-402f-b69d-29ea5527060f: 'Home by Neo' # Home by Neo
     cb621092-f9bd-4d01-9c34-d3e90af9a5fe: 'Hero Image' # Hero Image
     cc18f1c1-423f-4d1a-b560-da906f1aa33c: Entry # Entry
     ce0a2281-7787-4a34-9930-702ed9f183a1: Menus # Menus
     d1be453b-16b3-4a32-a058-d2518e7679c5: 'Hero Slides' # Hero Slides
     dd174446-a1a0-45fb-bf1e-988c752362ff: 'Menu Item' # Menu Item
     de048661-7be3-453c-85a3-abb21bce4a81: 'Menu Title' # Menu Title
+    e3eecd6a-baba-4a00-995b-e0adb05e343d: 'Hero Image'
     e73d7696-f650-4b27-94da-44d77d35b8ed: 'Body Text' # Body Text
     e9705a7a-4acc-40e5-8323-68f9ef09485e: Headline # Headline
     ef155709-e15d-470a-9e88-894998ed1b79: 'Food Type' # Food Type

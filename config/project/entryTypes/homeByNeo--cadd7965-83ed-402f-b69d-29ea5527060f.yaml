@@ -1,0 +1,55 @@
+fieldLayouts:
+  e4418546-bef0-4e2c-a898-4ab78c819a9e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9f913b99-2dfb-4c5c-9252-6c76069235e5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b42b8396-352b-4052-b2cb-49107b48cca1 # Component Builder (Neo)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17b7f3fb-9e1f-4f6f-9176-de56b1143114
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 235a61c6-e501-467e-ab05-1bbb69810e70
+        userCondition: null
+handle: homeByNeo
+hasTitleField: false
+name: 'Home by Neo'
+section: 2b619439-60e6-4144-b9b3-b6ed20960986 # Home by Neo
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

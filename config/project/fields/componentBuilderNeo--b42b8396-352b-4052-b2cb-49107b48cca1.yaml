@@ -1,0 +1,19 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b8cd1a77-869f-4dec-bb22-e2f141373d97 # Common
+handle: componentBuilderNeo
+instructions: null
+name: 'Component Builder (Neo)'
+searchable: true
+settings:
+  maxBlocks: null
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

@@ -1,0 +1,74 @@
+field: 6f9399dd-d22d-4d5d-bdf3-5e7b6d943895
+fieldLayouts:
+  08d0664c-d69e-4d67-8460-f3cf6b844055:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e3eecd6a-baba-4a00-995b-e0adb05e343d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 550e611c-618e-4f74-8366-d1872b8a0405
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eb023d12-c11a-49ea-a636-a1ad64d60f44
+        userCondition: null
+fields:
+  e3eecd6a-baba-4a00-995b-e0adb05e343d:
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroImageMatrix
+    instructions: null
+    name: 'Hero Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:b6bba009-dc96-46ab-b387-d2bd9e68441b' # Hero Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:b6bba009-dc96-46ab-b387-d2bd9e68441b' # Hero Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: true
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: slide
+name: Slide
+sortOrder: 1

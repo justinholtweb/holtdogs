@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homeByNeo
+name: 'Home by Neo'
+propagationMethod: all
+siteSettings:
+  1c804e03-e137-4bc5-9494-da5b7010d255: # Holts Dogs
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry-neo.twig
+    uriFormat: home-neo
+type: single

@@ -1,0 +1,36 @@
+childBlocks: null
+description: ''
+enabled: true
+field: b42b8396-352b-4052-b2cb-49107b48cca1 # Component Builder (Neo)
+fieldLayouts:
+  3b6b0d7d-9deb-4b03-82ab-ce497839d0c7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 86db7437-2889-46f1-99d0-ff35bc94f5b7 # Menu Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 49a8e471-909a-4cf3-a067-24ea697e5d86
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 07ca74a5-40da-403a-9321-d45d7dce2a82
+        userCondition: null
+group: null
+handle: menuPopular
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Menu Popular'
+sortOrder: 4
+topLevel: true

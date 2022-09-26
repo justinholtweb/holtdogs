@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 86759ff9-b6ed-439f-8f0d-16297ebfacf6 # Hero Component
+handle: heroSlidesMatrix
+instructions: null
+name: 'Hero Slides - Matrix'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_heroslidesmatrix}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

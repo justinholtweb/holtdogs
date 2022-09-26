@@ -1,0 +1,48 @@
+childBlocks: null
+description: ''
+enabled: true
+field: b42b8396-352b-4052-b2cb-49107b48cca1 # Component Builder (Neo)
+fieldLayouts:
+  7fa40b75-f2f8-4b57-8d24-aea54af96935:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1e1726ba-00f8-4953-b100-ade1f2535b51 # Food Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1793d35-4af4-4e20-ba91-e927ca5727fd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86db7437-2889-46f1-99d0-ff35bc94f5b7 # Menu Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 76ea1d93-85cc-457c-b98f-ad7f9b47693d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c661acf5-2015-486d-bb4f-78918d167fc9
+        userCondition: null
+group: null
+handle: menuCategory
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Menu Category'
+sortOrder: 2
+topLevel: true
