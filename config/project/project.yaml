@@ -1,4 +1,4 @@
-dateModified: 1664148603
+dateModified: 1664155870
 elementSources:
   craft\elements\Category:
     -
@@ -105,6 +105,10 @@ fs:
       path: $MENU_IMAGE_PATH
     type: craft\fs\Local
     url: $MENU_IMAGE_URL
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     1c804e03-e137-4bc5-9494-da5b7010d255: 'Holts Dogs' # Holts Dogs
@@ -140,6 +144,7 @@ meta:
     0692600b-0ba6-4b6c-b4b1-3066c69e193a: 'Special Price' # Special Price
     a6b34b9f-6df1-4984-a0ed-21d067ab0195: Heros # Heros
     a4926139-c3e6-4fa4-862f-97ee8170a148: Related # Related
+    aad6163c-88d6-45eb-97be-78935ffcb552: 'Public Schema'
     ae9536d9-dd50-426a-b8ca-1f62ef115059: 'Menu Category Component' # Menu Category Component
     b6bba009-dc96-46ab-b387-d2bd9e68441b: 'Hero Images' # Hero Images
     b8cd1a77-869f-4dec-bb22-e2f141373d97: Common # Common

@@ -6,57 +6,173 @@ instructions: null
 name: 'Link CTA'
 searchable: false
 settings:
-  allowCustomText: true
-  allowTarget: true
-  autoNoReferrer: true
-  customTextMaxLength: 0
-  customTextRequired: false
-  defaultLinkName: entry
-  defaultText: 'View More'
-  enableAllLinkTypes: false
-  enableAriaLabel: false
-  enableElementCache: false
-  enableTitle: false
-  typeSettings:
-    asset:
-      allowCrossSiteLink: false
-      allowCustomQuery: false
-      enabled: false
-      sources: '*'
-    category:
-      allowCrossSiteLink: false
-      allowCustomQuery: false
-      enabled: false
-      sources: '*'
-    custom:
-      allowAliases: false
-      disableValidation: false
-      enabled: true
-    email:
-      allowAliases: false
-      disableValidation: false
-      enabled: true
-    entry:
-      allowCrossSiteLink: false
-      allowCustomQuery: false
-      enabled: true
-      sources: '*'
-    site:
-      enabled: false
-      sites: '*'
-    tel:
-      allowAliases: false
-      disableValidation: false
-      enabled: false
-    url:
-      allowAliases: false
-      disableValidation: false
-      enabled: true
-    user:
-      allowCrossSiteLink: false
-      allowCustomQuery: false
-      enabled: false
-      sources: '*'
+  errorMessage: 'Unable to find component class ''lenz\linkfield\fields\LinkField''.'
+  expectedType: lenz\linkfield\fields\LinkField
+  settings:
+    __assoc__:
+      -
+        - allowCustomText
+        - true
+      -
+        - allowTarget
+        - true
+      -
+        - autoNoReferrer
+        - true
+      -
+        - customTextMaxLength
+        - 0
+      -
+        - customTextRequired
+        - false
+      -
+        - defaultLinkName
+        - entry
+      -
+        - defaultText
+        - 'View More'
+      -
+        - enableAllLinkTypes
+        - false
+      -
+        - enableAriaLabel
+        - false
+      -
+        - enableElementCache
+        - false
+      -
+        - enableTitle
+        - false
+      -
+        - typeSettings
+        -
+          __assoc__:
+            -
+              - asset
+              -
+                __assoc__:
+                  -
+                    - allowCrossSiteLink
+                    - false
+                  -
+                    - allowCustomQuery
+                    - false
+                  -
+                    - enabled
+                    - false
+                  -
+                    - sources
+                    - '*'
+            -
+              - category
+              -
+                __assoc__:
+                  -
+                    - allowCrossSiteLink
+                    - false
+                  -
+                    - allowCustomQuery
+                    - false
+                  -
+                    - enabled
+                    - false
+                  -
+                    - sources
+                    - '*'
+            -
+              - custom
+              -
+                __assoc__:
+                  -
+                    - allowAliases
+                    - false
+                  -
+                    - disableValidation
+                    - false
+                  -
+                    - enabled
+                    - true
+            -
+              - email
+              -
+                __assoc__:
+                  -
+                    - allowAliases
+                    - false
+                  -
+                    - disableValidation
+                    - false
+                  -
+                    - enabled
+                    - true
+            -
+              - entry
+              -
+                __assoc__:
+                  -
+                    - allowCrossSiteLink
+                    - false
+                  -
+                    - allowCustomQuery
+                    - false
+                  -
+                    - enabled
+                    - true
+                  -
+                    - sources
+                    - '*'
+            -
+              - site
+              -
+                __assoc__:
+                  -
+                    - enabled
+                    - false
+                  -
+                    - sites
+                    - '*'
+            -
+              - tel
+              -
+                __assoc__:
+                  -
+                    - allowAliases
+                    - false
+                  -
+                    - disableValidation
+                    - false
+                  -
+                    - enabled
+                    - false
+            -
+              - url
+              -
+                __assoc__:
+                  -
+                    - allowAliases
+                    - false
+                  -
+                    - disableValidation
+                    - false
+                  -
+                    - enabled
+                    - true
+            -
+              - user
+              -
+                __assoc__:
+                  -
+                    - allowCrossSiteLink
+                    - false
+                  -
+                    - allowCustomQuery
+                    - false
+                  -
+                    - enabled
+                    - false
+                  -
+                    - sources
+                    - '*'
 translationKeyFormat: null
 translationMethod: none
-type: lenz\linkfield\fields\LinkField
+type: craft\fields\MissingField
