@@ -1,0 +1,49 @@
+{% extends "_layout" %}
+
+{% block content %}
+{# Grab our search query #}
+{% set searchQuery = craft.app.request.getParam("q") %}
+
+{# Scaffold an array to hold our main results #}
+{% set searchResults = [] %}
+
+{# Search for components #}
+{% set searchComponents = craft.entries.section(["menus", "heros", "bodyTexts"]).search(searchQuery).orderBy('score').collect() %}
+{% set relatedComponentEntries = [] %}
+{% if searchComponents %}
+    {% for component in searchComponents %}
+        {% set relatedEntry = craft.entries.section(["entry", "home", "menuPage"]).relatedTo(component).orderBy('score').collect() %}
+        {% if relatedEntry %}
+            {% set relatedComponentEntries = relatedComponentEntries|merge([relatedEntry]) %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{# Merge our results #}
+{% if relatedComponentEntries %}
+    {% for entry in relatedComponentEntries %}
+        {% set searchResults = searchResults|merge([entry]) %}
+    {% endfor %}
+{% endif %}
+
+
+{# Collect our count #}
+{% set searchResultsCount = searchResults|length %}
+{% set searchResultsCountText = searchResultsCount == 1 ? "result" : "results" %}
+
+{# Make the donuts! #}
+
+    <section class="search-results">
+        {% if searchResultsCount %}
+            <h1>Search Results</h1>
+            <p>{{ searchResultsCount ~ ' ' ~ searchResultsCountText }} found for "{{ searchQuery }}"</p>
+            {% for result in searchResults %}
+                <h2><a href="{{ result[0].url() }}">{{ result[0].title }}</a></h2>
+            {% endfor %}
+        {% else %}
+            
+        {% endif %}
+    </section>
+
+
+{% endblock %}

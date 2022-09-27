@@ -4,7 +4,7 @@ fieldGroup: 6af778c6-d1f3-48bb-954a-b7b078d1a144 # Menu Category
 handle: menuBody
 instructions: null
 name: 'Menu Body'
-searchable: false
+searchable: true
 settings:
   byteLimit: null
   charLimit: null

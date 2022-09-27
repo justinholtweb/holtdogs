@@ -19,44 +19,52 @@
 		<!--HEADER-->
 		<header>
 			<div id="main-nav-wrap">
-			<nav id="main-nav">
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li class="sub-items"><a href="/menu">Menu</a>
-						<ul>
-							<li><a href="/menu/dogs">Dogs</a></li>
-							<li><a href="/menu/sausages">Sausages</a></li>
-							<li><a href="/menu/sandwiches">Sandwiches</a></li>
-							<li><a href="/menu/burgers">Burgers</a></li>
-							<li><a href="/menu/sides">Sides</a></li>
-							<li><a href="/menu/drinks">Drinks</a></li>
-						</ul>
-					</li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/our-story">Our Story</a></li>
-				</ul>	
-				<ul class="responsive-nav">
-					<li><a href="/">Home</a></li>
-					<li class="sub-items"><a href="/menu">Menu</a>
-						<ul>
-							<li><a href="/menu/dogs">Dogs</a></li>
-							<li><a href="/menu/sausages">Sausages</a></li>
-							<li><a href="/menu/sandwiches">Sandwiches</a></li>
-							<li><a href="/menu/burgers">Burgers</a></li>
-							<li><a href="/menu/sides">Sides</a></li>
-							<li><a href="/menu/drinks">Drinks</a></li>
-						</ul>
-					</li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/our-story">Our Story</a></li>
-				</ul>	
-				<a href="#" id="pull"></a>  
-			</nav>
+				<nav id="main-nav">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li class="sub-items"><a href="/menu">Menu</a>
+							<ul>
+								<li><a href="/menu/dogs">Dogs</a></li>
+								<li><a href="/menu/sausages">Sausages</a></li>
+								<li><a href="/menu/sandwiches">Sandwiches</a></li>
+								<li><a href="/menu/burgers">Burgers</a></li>
+								<li><a href="/menu/sides">Sides</a></li>
+								<li><a href="/menu/drinks">Drinks</a></li>
+							</ul>
+						</li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/our-story">Our Story</a></li>
+					</ul>	
+					<ul class="responsive-nav">
+						<li><a href="/">Home</a></li>
+						<li class="sub-items"><a href="/menu">Menu</a>
+							<ul>
+								<li><a href="/menu/dogs">Dogs</a></li>
+								<li><a href="/menu/sausages">Sausages</a></li>
+								<li><a href="/menu/sandwiches">Sandwiches</a></li>
+								<li><a href="/menu/burgers">Burgers</a></li>
+								<li><a href="/menu/sides">Sides</a></li>
+								<li><a href="/menu/drinks">Drinks</a></li>
+							</ul>
+						</li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/our-story">Our Story</a></li>
+					</ul>	
+					<a href="#" id="pull"></a>  
+				</nav>
 			</div>
 			<figure>
 				<img src="/images/main-logo.png" alt="Holt's Dogs Logo">
 				<figcaption>Holt's Dogs</figcaption>
 			</figure>
+		    <label for="toggle">Search</label>
+			<input type="checkbox" id="toggle" style="display: none;"/>
+			<div class="search">
+				<form action="/search" method="get">
+					<input type="text" name="q" placeholder="Search Term">
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
 		</header>
 		<!--/HEADER-->
 
@@ -67,7 +75,7 @@
 			<section id="info">
 				<article>
 					<h5>Holt's Dogs</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod tempor incididunt ut labore et dolore magna porem ed ipsum dolor sit amet, consectetur. Do re eiusmod tempor incididunt ut labore et dolore magna porem ed ipsum dolor sit amet, consectetur.</p>
+					<p>Using Matrix for content builders is a very common pattern but experience has found that it lends to content bloat and can become quickly unwieldy with extensive schemas containing numerous blocks. This content modeling approach can also result in decreased entry save performance and increased page processing load times. An alternative to this approach is to structure your content blocks/components as Entries in their own structure and feed them to page entries using relationship fields. This allows a content editor to reuse content blocks in various entries in the site while also allowing performance and content organization improvements. Craft 4 improvements in entry relationship fields, Collections, and the slideout editing menu also enhances and improves this content modeling approach.</p>
 					<ul class="c-info">
 						<li>732 Evergreen Terrace - Springfield, USA</li>
 						<li>justin@justinholt.com</li>

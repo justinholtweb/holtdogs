@@ -519,6 +519,44 @@ header + div {
 	background-color: #ffa800;
 }
 
+header label {
+	position: absolute;
+	right: 7%;
+	top: 17px;
+	line-height: 40px;
+	display: block;
+	padding: 0 15px;
+	font-size: 12px;
+	font-family: 'Oswald', sans-serif;
+	color: #e6e1c1;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+}
+header label:hover {
+	color: #ffa800;
+	cursor: pointer;
+}
+header .search {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 70px;
+	width: 300px;
+	height: 70px;
+	background-color: #ffa800;
+	z-index: 6;
+}
+header input:checked + .search {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+
 /***************************************/
 /* 7. MAIN SLIDER */
 /***************************************/
@@ -1403,7 +1441,7 @@ footer #copy {
 }
 
 footer > #info > article {
-	width: 270px;
+	width: calc(50% - 30px);
 	float: left;
 	margin-right: 30px;
 }
