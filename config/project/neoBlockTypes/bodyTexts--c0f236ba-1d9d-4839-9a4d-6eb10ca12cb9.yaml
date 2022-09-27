@@ -3,34 +3,34 @@ description: ''
 enabled: true
 field: b42b8396-352b-4052-b2cb-49107b48cca1 # Component Builder (Neo)
 fieldLayouts:
-  894f7bc1-ce7e-4cfb-9149-448ce3801215:
+  25fa9fc6-eabf-42aa-a476-4096eb59b7f8:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 6f9399dd-d22d-4d5d-bdf3-5e7b6d943895 # Hero Slides - Matrix
+            fieldUid: e73d7696-f650-4b27-94da-44d77d35b8ed # Body Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a11272f8-e998-40b8-ab58-9992357f3881
+            uid: efa21987-2a03-4b5e-944f-2b594e550c61
             userCondition: null
             warning: null
             width: 100
-        name: Slides
-        uid: eb460b45-a6d9-4e2e-97b3-bcf5a6b9d7b2
+        name: Content
+        uid: c9a35e7c-2706-4fd0-88fb-a56e32ed2779
         userCondition: null
 group: null
-handle: hero
+handle: bodyTexts
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
-name: Hero
-sortOrder: 1
+name: 'Body Texts'
+sortOrder: 6
 topLevel: true

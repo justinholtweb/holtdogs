@@ -1,4 +1,4 @@
-dateModified: 1664235753
+dateModified: 1664236987
 elementSources:
   craft\elements\Category:
     -
@@ -135,7 +135,7 @@ meta:
     131b4628-df79-47f8-ba09-b3ef213112be: 'Menu Specials Items' # Menu Specials Items
     291cce60-cee5-4519-ac13-6b4c185778be: 'Where this is used' # Where this is used
     644c9000-ad7a-488c-a6c2-a5ed42a89803: 'Menu Item' # Menu Item
-    696cb1e6-601f-4d50-9b5d-74ee25ca58e1: 'Body Text' # Components
+    696cb1e6-601f-4d50-9b5d-74ee25ca58e1: 'Body Text' # Body Text
     833f7b95-3423-48d6-bcd2-1f8713cbd4a5: 'Menu Page' # Menu Page
     2509fa8e-d195-4240-90f5-eb16a4b66cc5: 'Menu Component' # Menu Component
     8004e179-44a9-4058-9635-34dde8ff01a7: 'Menu Items' # Menu Items
@@ -153,11 +153,13 @@ meta:
     a4926139-c3e6-4fa4-862f-97ee8170a148: Related # Related
     aad6163c-88d6-45eb-97be-78935ffcb552: 'Public Schema' # Public Schema
     ae9536d9-dd50-426a-b8ca-1f62ef115059: 'Menu Category Component' # Menu Category Component
+    b3d155ce-22ee-45d0-9f3b-5a3a447ec21a: 'Menu Collection' # Menu Collection
     b6bba009-dc96-46ab-b387-d2bd9e68441b: 'Hero Images' # Hero Images
     b8cd1a77-869f-4dec-bb22-e2f141373d97: Common # Common
     b42b8396-352b-4052-b2cb-49107b48cca1: 'Component Builder (Neo)' # Component Builder (Neo)
     bc1034c7-85f2-41f9-a6ef-4178711c9165: 'Page Components' # Page Components
     be6c5c79-5a2f-4df0-8b79-a4f6b7cdb0e3: 'Body Texts' # Body Texts
+    c0f236ba-1d9d-4839-9a4d-6eb10ca12cb9: 'Body Texts' # Body Texts
     c3c90446-3b9d-4111-a102-f0dcd272ec4f: Description # Description
     cadd7965-83ed-402f-b69d-29ea5527060f: 'Home by Neo' # Home by Neo
     cb621092-f9bd-4d01-9c34-d3e90af9a5fe: 'Hero Image' # Hero Image
@@ -168,7 +170,9 @@ meta:
     de048661-7be3-453c-85a3-abb21bce4a81: 'Menu Title' # Menu Title
     e3eecd6a-baba-4a00-995b-e0adb05e343d: 'Hero Image' # Hero Image
     e73d7696-f650-4b27-94da-44d77d35b8ed: 'Body Text' # Body Text
+    e78f6982-c75c-41fa-8294-344a394a149f: 'Sub Headline' # Sub Headline
     e9705a7a-4acc-40e5-8323-68f9ef09485e: Headline # Headline
+    ec9d3f95-34f2-4b62-8ec4-1ea0eef75def: Headline # Headline
     ef155709-e15d-470a-9e88-894998ed1b79: 'Food Type' # Food Type
     f9dc79d3-ce2b-4d5e-8b89-d30d5a752745: 'Menu Body' # Menu Body
     f5488158-471a-4b6e-b81a-14c0d8e066a3: 'Menu Specials Component' # Menu Specials Component
