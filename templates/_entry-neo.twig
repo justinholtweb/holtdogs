@@ -3,7 +3,7 @@
 {% set components = entry.componentBuilderNeo.all() %}
 
 {% block content %}
-	{% if entry.pageComponents|length %}
+	{% if components|length %}
 		{% include "components/_router-neo" with components %}
 	{% endif %}
 {% endblock %}
