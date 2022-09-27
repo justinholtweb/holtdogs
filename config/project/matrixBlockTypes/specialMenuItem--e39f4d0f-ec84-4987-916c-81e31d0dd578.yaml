@@ -1,0 +1,93 @@
+field: 6794d760-f90a-434f-a092-f85296f202b9 # Menu Specials Neo
+fieldLayouts:
+  4a09b8fc-64c7-4032-b483-1c28ef698fc5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42317768-fb6c-483f-9211-d0c2f5b0b7f9 # Menu Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 266e80d8-a5f7-49b4-bc5c-d2c60423f903
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ab7661c-b5ae-4217-8004-d50e9ba8f833 # Special Price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 49e81daa-0563-4787-a4d3-56c977c838ba
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3dd99aa0-49fd-4a3c-b7ca-9807521727a7
+        userCondition: null
+fields:
+  4ab7661c-b5ae-4217-8004-d50e9ba8f833: # Special Price
+    columnSuffix: aomawvvx
+    contentColumnType: text
+    fieldGroup: null
+    handle: specialPrice
+    instructions: null
+    name: 'Special Price'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  42317768-fb6c-483f-9211-d0c2f5b0b7f9: # Menu Item
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: menuItem
+    instructions: null
+    name: 'Menu Item'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:8004e179-44a9-4058-9635-34dde8ff01a7' # Menu Items
+      targetSiteId: null
+      validateRelatedElements: true
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: specialMenuItem
+name: 'Special Menu Item'
+sortOrder: 1

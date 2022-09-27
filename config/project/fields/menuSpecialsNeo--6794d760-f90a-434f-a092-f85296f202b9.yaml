@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 2509fa8e-d195-4240-90f5-eb16a4b66cc5 # Menu Component
+handle: menuSpecialsNeo
+instructions: null
+name: 'Menu Specials Neo'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_menuspecialsneo}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -10,13 +10,13 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 131b4628-df79-47f8-ba09-b3ef213112be # Menu Specials Items
+            fieldUid: 6794d760-f90a-434f-a092-f85296f202b9 # Menu Specials Neo
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 69cf4491-306e-4590-9b40-b4b5bebc1bfa
+            uid: cad74496-806e-4ecd-b5d7-51bb96438991
             userCondition: null
             warning: null
             width: 100

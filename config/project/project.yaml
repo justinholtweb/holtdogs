@@ -1,4 +1,4 @@
-dateModified: 1664236987
+dateModified: 1664238418
 elementSources:
   craft\elements\Category:
     -
@@ -118,6 +118,7 @@ meta:
     2d35fb6d-e298-443f-9425-ec449767b3a7: Hero # Hero
     2f0161fd-83d5-4c24-bbcb-fcca61da8880: Slide # Slide
     02ff2eb7-51b8-432e-a52e-12f5b3fbf090: Home # Home
+    4ab7661c-b5ae-4217-8004-d50e9ba8f833: 'Special Price' # Special Price
     6af778c6-d1f3-48bb-954a-b7b078d1a144: 'Menu Category' # Menu Category
     6cbf57be-a3e0-4bce-b384-7aa42e280745: 'Menu Popular' # Menu Popular
     6cd1c5ad-3b47-4966-8fbe-248dd48863ae: 'Menu Popular Component' # Menu Popular Component
@@ -127,6 +128,7 @@ meta:
     8c44dd58-be55-436e-a04f-54a149e89f30: 'Link CTA' # Link CTA
     20c91268-c805-41b0-b0ea-e721d23731e9: 'Thumb Image' # Thumb Image
     34e5f5a1-cf3d-4b24-a26e-6e072739e1bc: 'Special Bespoke Item' # Special Bespoke Item
+    37c13ca3-f534-4b62-a746-e4b8a9fbfa09: 'Special Bespoke Item' # Special Bespoke Item
     39a4703d-4a76-4a64-84e1-6da9d337b15d: Item # Item
     62f3760e-1e42-4073-9014-731d196281d9: Home # Home
     63a14a8c-8ea5-4106-9de7-ae59581588d5: 'Menu Thumbs' # Menu Thumbs
@@ -136,8 +138,10 @@ meta:
     291cce60-cee5-4519-ac13-6b4c185778be: 'Where this is used' # Where this is used
     644c9000-ad7a-488c-a6c2-a5ed42a89803: 'Menu Item' # Menu Item
     696cb1e6-601f-4d50-9b5d-74ee25ca58e1: 'Body Text' # Body Text
+    794abc79-8935-426e-9d21-37e74fd19d0a: 'Special Price' # Special Price
     833f7b95-3423-48d6-bcd2-1f8713cbd4a5: 'Menu Page' # Menu Page
     2509fa8e-d195-4240-90f5-eb16a4b66cc5: 'Menu Component' # Menu Component
+    6794d760-f90a-434f-a092-f85296f202b9: 'Menu Specials Neo' # Menu Specials Neo
     8004e179-44a9-4058-9635-34dde8ff01a7: 'Menu Items' # Menu Items
     38831f15-6d3d-4c42-981d-b3e3b57d7547: 'Hero Image' # Hero Image
     48502f48-484c-442b-b19a-54b575dd7a34: 'Menu Category' # Menu Category
@@ -148,6 +152,7 @@ meta:
     0692600b-0ba6-4b6c-b4b1-3066c69e193a: 'Special Price' # Special Price
     817759c0-5a77-438e-8fe9-0d413397f0ef: Hero # Hero
     15440698-604f-4848-b799-baa1b0d9bd28: Slide # Slide
+    42317768-fb6c-483f-9211-d0c2f5b0b7f9: 'Menu Item' # Menu Item
     88139711-9b2c-4898-8708-b06dff4ebb34: 'Menu Specials' # Menu Specials
     a6b34b9f-6df1-4984-a0ed-21d067ab0195: Heros # Heros
     a4926139-c3e6-4fa4-862f-97ee8170a148: Related # Related
@@ -165,10 +170,13 @@ meta:
     cb621092-f9bd-4d01-9c34-d3e90af9a5fe: 'Hero Image' # Hero Image
     cc18f1c1-423f-4d1a-b560-da906f1aa33c: Entry # Entry
     ce0a2281-7787-4a34-9930-702ed9f183a1: Menus # Menus
+    d06a8e51-7658-433d-b57e-3e458cde407a: Description # Description
     d1be453b-16b3-4a32-a058-d2518e7679c5: 'Hero Slides' # Hero Slides
+    d42406ca-00a3-4bb9-b8e6-3d76a3bf1a90: Headline # Headline
     dd174446-a1a0-45fb-bf1e-988c752362ff: 'Menu Item' # Menu Item
     de048661-7be3-453c-85a3-abb21bce4a81: 'Menu Title' # Menu Title
     e3eecd6a-baba-4a00-995b-e0adb05e343d: 'Hero Image' # Hero Image
+    e39f4d0f-ec84-4987-916c-81e31d0dd578: 'Special Menu Item' # Special Menu Item
     e73d7696-f650-4b27-94da-44d77d35b8ed: 'Body Text' # Body Text
     e78f6982-c75c-41fa-8294-344a394a149f: 'Sub Headline' # Sub Headline
     e9705a7a-4acc-40e5-8323-68f9ef09485e: Headline # Headline
