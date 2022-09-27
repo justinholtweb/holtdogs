@@ -1,0 +1,47 @@
+{% set slides = component.heroSlidesMatrix.collect() %}
+
+{% if slides|length %}
+    <section class="hero">
+        <ul class="main-slider">
+            {% for slide in slides %}
+                {% set headline = slide.headline %}
+                {% set subHeadline = slide.subHeadline %}
+                {% set image = slide.heroImage.one() %}
+                {% set cta = slide.linkCta %}
+                {% set slideClass = '' %}
+                {% switch loop.index %}
+                    {% case "1" %}
+                        {% set slideClass = 'first' %}
+                    {% case "2" %}
+                        {% set slideClass = 'second' %}
+                    {% case "3" %}
+                        {% set slideClass = 'third' %}
+                    {% default %}
+                {% endswitch %}
+                
+                <li class="{{ slideClass }}">
+                    {% if headline %}
+                        <h1>{{ headline }}</h1>
+                    {% endif %}
+                    {% if subHeadline %}
+                        <h6>{{ subHeadline }}</h6>
+                    {% endif %}
+                    <img src="images/slider1-decor.png" alt="stars-moustache">
+                    {% if cta %}
+                        <a href="menu.html" target="_blank" class="square-button">Go to our menu</a>
+                    {% endif %}
+                    {% if image %}
+                        <div class="hero-image">
+                            <img src="{{ image.url }}" alt="{{ image.title }}">
+                        </div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="pager-container">
+            {% for slide in slides %}
+                <a href="" data-slide-index="0"></a>
+            {% endfor %}
+        </div>
+    </section>
+{% endif %}

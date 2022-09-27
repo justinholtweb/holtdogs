@@ -1,16 +1,16 @@
 {% for component in components %}
-    {% switch component.handle %}
+    {% switch component.type %}
         {% case "hero" %}
-            {% include "components/_partials/_hero" with component %}
-        {% case "menuCollectionComponent" %}
+            {% include "components/_partials/_heroMatrix" with component %}
+        {% case "menuCollection" %}
             {% include "components/_partials/_menu-overview" with component %}
-        {% case "menuItemComponent" %}
+        {% case "menuItem" %}
             {% include "components/_partials/_menu-item" with component %}
-        {% case "menuPopularComponent" %}
+        {% case "menuPopular" %}
             {% include "components/_partials/_menu-popular" with component %}
-        {% case "menuSpecialsComponent" %}
+        {% case "menuSpecials" %}
             {% include "components/_partials/_menu-specials" with component %}
-        {% case "menuCategoryComponent" %}
+        {% case "menuCategory" %}
             {% include "components/_partials/_menu-category" with component %}
         {% case "bodyText" %}
             {% include "components/_partials/_body-text" with component %}
