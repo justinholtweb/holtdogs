@@ -22,28 +22,69 @@
 {# Merge our results #}
 {% if relatedComponentEntries %}
     {% for entry in relatedComponentEntries %}
-        {% set searchResults = searchResults|merge([entry]) %}
+        {% if entry not in searchResults %}
+            {% set searchResults = searchResults|merge([entry]) %}
+        {% endif %}
     {% endfor %}
 {% endif %}
 
+{# Search for menu items #}
+{% set searchMenuItems = craft.entries.section("menuItems").search(searchQuery).orderBy('score').collect() %}
+{% if searchMenuItems %}
+    {% set relatedComponentMenuItems = [] %}
+    {% for menuItem in searchMenuItems %}
+        {# Get our menu item parent category #}
+        {% set menuItemFoodType = menuItem.foodType.collect() %}
+        {% set searchMenuRelatedComponents = craft.entries.section(["menus", "heros", "bodyTexts"]).relatedTo(menuItemFoodType[0]).orderBy('score').collect() %}
+        {% if searchMenuRelatedComponents %}
+            {% set relatedComponentMenuItems = relatedComponentMenuItems|merge([searchMenuRelatedComponents]) %}
+        {% endif %}
+        {% if searchMenuRelatedComponents %}
+            {% for component in searchMenuRelatedComponents %}
+                {% set relatedEntry = craft.entries.section(["entry", "home", "menuPage"]).relatedTo(component).orderBy('score').collect() %}
+                {% if relatedEntry %}
+                    {% set relatedComponentEntries = relatedComponentEntries|merge([relatedEntry]) %}
+                {% endif %}
+            {% endfor %}
+            {# Merge our results #}
+            {% if relatedComponentEntries %}
+                {% for entry in relatedComponentEntries %}
+                    {% if entry not in searchResults %}
+                        {% set searchResults = searchResults|merge([entry]) %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{# Reduce/eliminate dupes #}
+{% set cleanEntries = [] %}
+{% set shownEntries = [] %}
+{% for result in searchResults %}
+    {% if result[0].id not in shownEntries %}
+        {% set shownEntries = shownEntries|merge([result[0].id]) %}
+        {% set cleanEntries = cleanEntries|merge([result]) %}
+    {% endif %}
+{% endfor %}
 
 {# Collect our count #}
-{% set searchResultsCount = searchResults|length %}
+{% set searchResultsCount = cleanEntries|length %}
 {% set searchResultsCountText = searchResultsCount == 1 ? "result" : "results" %}
 
 {# Make the donuts! #}
-
-    <section class="search-results">
-        {% if searchResultsCount %}
-            <h1>Search Results</h1>
-            <p>{{ searchResultsCount ~ ' ' ~ searchResultsCountText }} found for "{{ searchQuery }}"</p>
-            {% for result in searchResults %}
-                <h2><a href="{{ result[0].url() }}">{{ result[0].title }}</a></h2>
-            {% endfor %}
-        {% else %}
-            
-        {% endif %}
-    </section>
+<section class="search-results">
+    {% if searchResultsCount %}
+        <h1>Search Results</h1>
+        <p>{{ searchResultsCount ~ ' ' ~ searchResultsCountText }} found for "{{ searchQuery }}"</p>
+        {% for result in cleanEntries %}
+            <a href="{{ result[0].url() }}">{{ result[0].title }}</a>
+        {% endfor %}
+    {% else %}
+        <h1>Search Results</h1>
+        <p>No results found for "{{ searchQuery }}"</p>
+    {% endif %}
+</section>
 
 
 {% endblock %}

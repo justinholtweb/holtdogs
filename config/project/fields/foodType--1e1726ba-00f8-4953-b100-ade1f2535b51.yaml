@@ -4,7 +4,7 @@ fieldGroup: 644c9000-ad7a-488c-a6c2-a5ed42a89803 # Menu Item
 handle: foodType
 instructions: null
 name: 'Food Type'
-searchable: false
+searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
@@ -14,7 +14,7 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: 'Select a Food Type'
-  showSiteMenu: false
+  showSiteMenu: true
   source: 'group:ef155709-e15d-470a-9e88-894998ed1b79' # Food Type
   sources: '*'
   targetSiteId: null

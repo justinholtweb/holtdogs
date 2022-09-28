@@ -1,45 +1,33 @@
-<!--SPECIALS-->
-		<section id="specials">
-			<img src="images/ivy.png" alt="ivy">
-			<figure id="board">
-				<img src="images/specials-title.png" alt="specials-title">
+{% if component.type == 'menuSpecialsNeo' %}
+	{% set specials = component.menuSpecialsNeo %}
+{% else %}
+	{% set specials = component.menuSpecialsItems %}
+{% endif %}
+
+<section id="specials">
+	<img src="images/ivy.png" alt="ivy">
+	<figure id="board">
+		<img src="images/specials-title.png" alt="specials-title">
+		<article>
+			{% for block in specials %}
+				{% switch block.type %}
+					{% case "specialMenuItem" %}
+						{% set specialTitle = block.menuItem.one().title %}
+						{% set specialDescription = block.menuItem.one().description %}
+						{% set specialPrice = block.specialPrice %}
+					{% case "specialBespokeItem" %}
+						{% set specialTitle = block.headline %}
+						{% set specialDescription = block.description %}
+						{% set specialPrice = block.specialPrice %}
+					{% default %}
+				{% endswitch %}
 				<article>
-					<!--SPECIAL ITEM-->
-					<article>
-						<h5>Mozzarella Cheeseburger</h5>
-						<hr>
-					</article>
-					<p>$15.00</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
-					<!--/SPECIAL ITEM-->
-
-					<!--SPECIAL ITEM-->
-					<article>
-						<h5>Dark Side Bacon Pizza</h5>
-						<hr>
-					</article>
-					<p>$32.00</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
-					<!--/SPECIAL ITEM-->
-
-					<!--SPECIAL ITEM-->
-					<article>
-						<h5>Meltdown Nachos</h5>
-						<hr>
-					</article>
-					<p>$17.00</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
-					<!--/SPECIAL ITEM-->
-
-					<!--SPECIAL ITEM-->
-					<article>
-						<h5>Golden Onion Rings</h5>
-						<hr>
-					</article>
-					<p>$21.00</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
-					<!--/SPECIAL ITEM-->
-				</article>		
-			</figure>
-		</section>
-		<!--/SPECIALS-->
+					<h5>{{ specialTitle }}</h5>
+					<hr>
+				</article>
+				<p>{{ specialPrice }}</p>
+				<p>{{ specialDescription }}</p>
+			{% endfor %}
+		</article>		
+	</figure>
+</section>
