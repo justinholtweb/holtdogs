@@ -2266,7 +2266,8 @@ article.post {
 	padding: 60px 12.439024390243902%;
 }
 
-article.post p {
+article.post p,
+article.post ul {
 	font-size: 18px;
 	padding-bottom: 10px;
 }
